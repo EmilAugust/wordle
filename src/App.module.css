@@ -1,0 +1,97 @@
+@import url("https://use.typekit.net/yuq7pna.css");
+
+.container {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #121213;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  margin: 2.5px 0;
+  display: flex;
+}
+
+.default {
+  display: flex;
+  color: #ffffff;
+  border: 2px solid #3A3A3C;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  height: 62px;
+  width: 62px;
+  margin: 0 2.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #121213;
+}
+
+.grey {
+  display: flex;
+  color: #ffffff;
+  border: 2px solid #3A3A3C;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  height: 62px;
+  width: 62px;
+  margin: 0 2.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A3A3C;
+}
+
+.yellow {
+  display: flex;
+  color: #ffffff;
+  border: 2px solid #B59F3B;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  height: 62px;
+  width: 62px;
+  margin: 0 2.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #B59F3B;
+}
+
+.green {
+  display: flex;
+  color: #ffffff;
+  border: 2px solid #538D4E;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  height: 62px;
+  width: 62px;
+  margin: 0 2.5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #538D4E;
+}

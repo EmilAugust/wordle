@@ -1,0 +1,97 @@
+@import url("https://use.typekit.net/yuq7pna.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: rgb(18, 18, 19);
+  border-radius: 10px;
+  border: 1px solid rgb(26, 26, 27);
+}
+
+.close {
+  color: #FFFFFF;
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+}
+
+.content {
+  position: absolute;
+  margin-top: 80px;
+  padding: 0 40px 0 40px;
+}
+
+h1 {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+}
+
+p {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.buttons button {
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 5px;
+  background-color: #538D4E;
+  border: none;
+  font-size: 22px;
+  color: #FFFFFF;
+  width: 180px;
+  height: 60px;
+  bottom: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: rgb(89, 128, 78);
+}
+
+.share {
+  margin-left: 40px;
+}
+
+.playAgain {
+  margin-right: 40px;
+}
+
+.buttonIcon {
+  position: relative;
+  top: 4px;
+}
